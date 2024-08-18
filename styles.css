@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #00ff00;
+}
+
+h1 {
+    color: #00ff00;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.status, .formulario, .senha {
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #00ff00;
+}
+
+#senhaAtual {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #00ff00;
+    background-color: #121212;
+    color: #00ff00;
+}
